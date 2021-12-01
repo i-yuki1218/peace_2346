@@ -116,7 +116,7 @@ array=list(map(int,point))
 if len(array) >= 2:
     a,b = array
     
-elif a==b:
+if a==b:
     k = count
 else:
     k = sum(array)
